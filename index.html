@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+      <title>TestTask</title>
+       
+      <script src="script.js" type="module"></script>
+
+      <link rel="stylesheet" href="css/style.css">
+
+      <meta charset="UTF-8">
+
+      <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+            <div class="form__h">
+                <p>Contact Us</p>
+            </div>
+            <div class="form__text">
+                <p>The Voodoo team is looking forward to hearing from you!</p>
+            </div>
+        
+        <main class="main">
+        <div class="input__row">
+            <div class="full__name">
+                <input type="text" placeholder="Full Name*" name="full_name"/>
+            </div>
+            <div class="title__position">
+                <input type="text" placeholder="Title/Position*" name="title_position"/>
+            </div>
+            <div class="practice__institution">
+              <select name="practice_institution" placeholder="practice_institution" required>
+                <option value="" selected hidden>Practice / Institution</option>  
+                <option value="">Option 1</option>
+                <option value="">Option 2</option>
+                <option value="">Option 3</option>
+                <option value="">Option 4</option>
+                <option value="">Option 5</option>
+              </select>
+            </div>
+            <div class="email">
+                <input type="text" placeholder="Email Adress*" name="full_name"/>
+            </div>
+            <div class="phone__number">
+                <input type="text" placeholder="Phone Number*" name="full_name"/>
+            </div>
+            <div class="type_of_inquiry">
+                <input type="text" placeholder="Type of Inquiry*" name="full_name"/>
+            </div>
+            
+            <div class="medical__profession">
+                <select data-custom>
+                    <option value="" selected hidden>Medical Profession*</option>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                    <option value="option4">Option 4</option>
+                    <option value="option5">Option 5</option>
+                  </select>
+            </div>
+            <div class="textarea">
+                <textarea name="text" cols="30" rows="10" placeholder="Enter Message*"></textarea>
+            </div>
+            <div class="button">
+                <button type="submit">Send Message</button>
+            </div>
+        </div>
+        </main>
+  </body>
+</html>
